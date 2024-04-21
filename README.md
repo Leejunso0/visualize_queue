@@ -3,6 +3,7 @@ this program visualize queue, so you can see and understand how queue makes work
 this defaults to to 3 seconds per action. if you want to change time, change plt.pause()
 
 # Example usage
+
 if __name__ == "__main__":
 
     q1 = QueueVisualization()
@@ -18,4 +19,4 @@ if __name__ == "__main__":
     q1.dequeue()
 
     plt.show()
-    
+
