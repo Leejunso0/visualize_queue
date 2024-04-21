@@ -8,7 +8,7 @@ setuptools.setup(
     url = 'https://github.com/Leejunso0/visualize_queue',
     download_url= 'https://github.com/Leejunso0/visualize_queue',
     requires=[
-        "matplotlib==3.8.4"
+        "matplotlib"
     ],
     packages = [ 'visualize_queue' ],
     classifiers= [
